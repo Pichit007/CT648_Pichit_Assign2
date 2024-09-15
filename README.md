@@ -15,10 +15,10 @@ CMD ["bun","run","start"] <br>
 4. ทำการ Build Docker images <br>
 Build Docker images <br>
 --------------------------------------- <br>
-sudo docker build -t pichit007/bunbasic:web .
+sudo docker build -t pichit007/bunbasic:web . <br>
 --------------------------------------- <br>
 
 5. ทำการ Run images Docker <br>
 --------------------------------------- <br>
 sudo docker run -it -d -p 80:3000 pichit007/bunbasic:web <br>
----------------------------------------
+--------------------------------------- <br>
