@@ -6,19 +6,19 @@ IP Address : http://175.41.173.29/
 
 Dockerfile <br>
 --------------------------------------- <br>
-FROM oven/bun
-COPY . .
-RUN bun install
-CMD ["bun","run","start"]
+FROM oven/bun <br>
+COPY . . <br>
+RUN bun install <br>
+CMD ["bun","run","start"] <br>
 --------------------------------------- <br>
 
-4. ทำการ Build Docker images
+4. ทำการ Build Docker images <br>
 Build Docker images <br>
----------------------------------------
+--------------------------------------- <br>
 sudo docker build -t pichit007/bunbasic:web .
 --------------------------------------- <br>
 
 5. ทำการ Run images Docker <br>
----------------------------------------
-sudo docker run -it -d -p 80:3000 pichit007/bunbasic:web
+--------------------------------------- <br>
+sudo docker run -it -d -p 80:3000 pichit007/bunbasic:web <br>
 ---------------------------------------
